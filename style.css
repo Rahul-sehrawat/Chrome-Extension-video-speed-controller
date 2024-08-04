@@ -1,0 +1,16 @@
+body {
+    width: 150px;
+    padding: 10px;
+    background: #000;
+  }
+
+  #heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center ;
+    color: white;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
