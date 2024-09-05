@@ -28,7 +28,7 @@ document.getElementById('speed1').addEventListener('click', () => {
     });
   });
 
-  document.getElementById('skip-button').addEventListener('click', () => {
+  document.getElementById('skip-btn').addEventListener('click', () => {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
       chrome.tabs.sendMessage(tabs[0].id, { action: 'setSpeed', speed: 10 });
     });
