@@ -13,4 +13,17 @@ body {
   button {
     width: 100%;
     margin: 5px 0;
+    cursor: pointer;
+    &:hover{
+      background: #bdbaba;
+    }
+  }
+
+  #skip-btn{
+    margin-left: 35%;
+    width: 50px;
+    cursor: pointer;
+    &:hover{
+      scale:1.2
+    }
   }
